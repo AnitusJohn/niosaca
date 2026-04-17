@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NIOS & BOSSE Admission 2026 – Academy in Aloor</title>
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+     
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+<style>
+:root{
+  --red:#c1121f;
+  --dark:#111;
+  --light:#f8f9fa;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#fff;
+  color:#333;
+  line-height:1.7;
+}
+
+/* ===== HEADER ===== */
+.header{
+  background:linear-gradient(135deg,var(--red),#8b0000);
+  color:#fff;
+  padding:60px 20px;
+  text-align:center;
+}
+
+.header h1{
+  font-size:36px;
+  margin-bottom:10px;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* ===== SECTIONS ===== */
+.section{
+  margin-bottom:50px;
+}
+
+.section h2{
+  color:var(--red);
+  margin-bottom:15px;
+  font-size:28px;
+  border-left:6px solid var(--red);
+  padding-left:12px;
+}
+
+.section h3{
+  color:#8b0000;
+  margin:18px 0 10px;
+}
+
+ul{
+  padding-left:20px;
+  margin-top:10px;
+}
+
+li{
+  margin-bottom:8px;
+}
+
+/* ===== TABLE ===== */
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+}
+
+th,td{
+  border:1px solid #ddd;
+  padding:12px;
+  /* text-align:center; */
+}
+
+th{
+  background:var(--red);
+  color:#fff;
+}
+
+/* ===== CARD ===== */
+.card{
+  background:#fff5f5;
+  border-left:5px solid var(--red);
+  padding:20px;
+  margin:20px 0;
+  border-radius:6px;
+}
+
+/* ===== CTA ===== */
+.cta{
+  background:var(--red);
+  color:#fff;
+  text-align:center;
+  padding:40px 20px;
+  border-radius:10px;
+}
+
+.cta button{
+  background:#fff;
+  color:var(--red);
+  border:none;
+  padding:12px 25px;
+  font-size:16px;
+  border-radius:6px;
+  cursor:pointer;
+  margin-top:15px;
+  font-weight:bold;
+}
+
+/* ===== FOOTER ===== */
+.footer{
+  background:#111;
+  color:#bbb;
+  text-align:center;
+  padding:25px;
+  margin-top:40px;
+}
+
+.footer span{
+  color:var(--red);
+  font-weight:bold;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+  .header h1{
+    font-size:26px;
+  }
+}
+</style>
+<style>
+:root{
+  --red:#c1121f;
+}
+
+/* ===== BODY ===== */
+body{
+  font-family:Segoe UI, Arial, sans-serif;
+  background:#f5f6fa;
+  /* padding:40px 15px; */
+}
+
+/* ===== CONTAINER ===== */
+.wrapper{
+  max-width:900px;
+  margin:auto;
+}
+
+/* ===== ACCORDION ===== */
+.accordion{
+  background:#fff;
+  border-radius:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+  overflow:hidden;
+}
+
+.accordion-header{
+  background:var(--red);
+  color:#fff;
+  padding:18px 22px;
+  cursor:pointer;
+  font-size:20px;
+  font-weight:600;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.accordion-header span{
+  font-size:24px;
+  transition:.3s;
+}
+
+.accordion-content{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .4s ease;
+  padding:0 22px;
+}
+
+.accordion-content.open{
+  padding:22px;
+}
+
+/* ===== TEXT ===== */
+.accordion-content p{
+  margin-bottom:12px;
+  line-height:1.6;
+}
+
+.accordion-content ul{
+  padding-left:20px;
+  margin:10px 0;
+}
+
+.accordion-content li{
+  margin-bottom:6px;
+}
+
+/* ===== TABLE ===== */
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:18px;
+}
+
+th,td{
+  border:1px solid #ddd;
+  padding:10px;
+  /* text-align:center; */
+}
+
+th{
+  background:var(--red);
+  color:#fff;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width:600px){
+  .accordion-header{
+    font-size:17px;
+  }
+}
+</style>
+<style>
+  .faq-container{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+h2{
+    /* text-align:center; */
+    margin-bottom:25px;
+}
+
+/* FAQ item */
+.faq-item{
+    border-bottom:1px solid #ddd;
+}
+
+/* Question button */
+.faq-question{
+    width:100%;
+    text-align:left;
+    padding:16px 50px 16px 16px;
+    font-size:16px;
+    font-weight:bold;
+    background:var(--red);
+    color:#fff;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    transition:0.3s;
+    border-radius:6px;
+    margin-top:10px;
+    position:relative;
+}
+
+/* Arrow icon */
+.faq-question::after{
+    content:"▼";
+    position:absolute;
+    right:18px;
+    top:50%;
+    transform:translateY(-50%) rotate(0deg);
+    font-size:14px;
+    transition:0.3s ease;
+}
+
+/* Rotate arrow when active */
+.faq-question.active::after{
+    transform:translateY(-50%) rotate(180deg);
+}
+
+.faq-question:hover{
+    background:var(--red);
+}
+
+/* Answer */
+.faq-answer{
+    display:none;
+    padding:15px;
+    background:#f8f9fa;
+    border-radius:0 0 6px 6px;
+    line-height:1.6;
+}
+
+.faq-answer ul{
+    margin:10px 0 0 18px;
+}
+</style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-20">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+           <h2 class="m-0 text-primary">
+                <img style="width: 200px; height: 80px;" src="./img/nios-logo.png" alt="">
+            </h2>   
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link ">About</a>
+                <a href="./nios-thuckalay.html" class="nav-item nav-link ">10th & 12th </a>
+                <a href="./online-distance-degee-in-thuckalay.html" class="nav-item nav-link ">DEGREE</a>
+                <a href="./attestation-center-in-thuckalay.html" class="nav-item nav-link ">ATTESTATION</a>
+               
+                <!-- <a href="#" class="nav-item nav-link">About</a> -->
+                <!-- <a href="" class="nav-item nav-link">Courses</a> -->
+                <!-- <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="https://www.stjosephinstitute.in/program.html" class="dropdown-item">10th / 12th 
+           NIOS  BOSSE</a>
+                        <a href="https://www.stjosephinstitute.in/program.html" class="dropdown-item">DEGREE UG / PG (Distance & Online)</a>
+                        <a href="https://www.stjosephinstitute.in/program.html" class="dropdown-item">ATTESTATION</a>
+                    </div>
+                </div> -->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="./contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+<!-- ================= HEADER ================= -->
+<div class="header">
+  <h1>NIOS & BOSSE Admission 2026</h1>
+  <p>Complete Guide for Class 10th & 12th – Hall Ticket, ODE, Exams & Admission</p>
+</div>
+
+<div class="container">
+
+<!-- ================= BOSSE LINKS ================= -->
+<div class="section">
+  <h1>BOSSE – Board of Open Schooling and Skill Education Academy IN Aloor</h1>
+  <h2>BOSSE – Board of Open Schooling and Skill Education</h2>
+  <div class="row">
+
+<div class="col-md-6">
+  
+  <ul>
+  <li><a href="https://nios.eduaca.in/contact.html" target="_blank">BOSSE Class 10 Academy in Aloor</a></li>
+  <li><a href="https://nios.eduaca.in/contact.html" target="_blank">BOSSE Class 12 Academy in Aloor</a></li>
+  <li><a href="https://nios.eduaca.in/contact.html" target="_blank">BOSSE Admission</a></li>
+  <li><a href="https://nios.eduaca.in/contact.html" target="_blank">BOSSE Hall Ticket</a></li>
+  </ul>
+</div>
+<div class="col-md-6">
+<img style="width: 100%;" src="./img/boss/banner.png" alt="">
+</div>
+  </div>
+
+</div>
+
+<!-- ================= ABOUT BOSSE ================= -->
+<div class="section">
+<h2>About BOSSE</h2>
+
+<p>The Indian government’s Ministry of Education founded the Board of Open Schooling and Skill Education (BOSSE). Its primary goal is to educate students who, for personal, professional, or geographic reasons, are unable to attend traditional schools.</p>
+
+<ul>
+<li>April/May Examination</li>
+<li>October/November Examination</li>
+</ul>
+
+<p>Before taking the theory and practical exams, students must download their corresponding <strong>BOSSE HALL TICKET 2026</strong>.</p>
+</div>
+
+
+
+<div class="wrapper">
+
+  <div class="accordion">
+    <div class="accordion-header" onclick="toggleAccordion(this)">
+      What is the BOSSE HALL TICKET 2026?
+      <span>+</span>
+    </div>
+
+    <div class="accordion-content">
+
+      <p>• For students enrolled in Class 10 and Class 12 exams, the board issues an official document known as the BOSSE HALL TICKET 2026 or BOSSE ADMIT CARD 2026. It acts as identification and authorisation to take the test.</p>
+
+      <p>• The following are important details about the BOSSE HALL TICKET 2026:</p>
+
+      <ul>
+        <li>Name and enrolment number of the student</li>
+        <li>A picture and a signature</li>
+        <li>Exam schedule and subject codes</li>
+        <li>Name and address of the exam centre</li>
+        <li>Guidelines for the day of the test</li>
+        <li>April or October session</li>
+      </ul>
+
+      <p>• Students will not be permitted to enter the exam room without this hall pass. Therefore, downloading it on time is essential.</p>
+
+      <h3 style="color:#c1121f;">Release Dates for NIOS HALL TICKET 2026</h3>
+
+      <p>The NIOS hall ticket is usually released 15–20 days before the examination.</p>
+
+   
+
+    </div>
+  </div>
+
+</div>
+   
+<!-- ================= HALL TICKET ================= -->
+<div class="section">
+<h2>BOSSE Hall Ticket 2026</h2>
+
+<div class="card">
+For students enrolled in Class 10 and Class 12 exams, the board issues an official document known as the BOSSE Hall Ticket 2026 or BOSSE Admit Card 2026. It acts as identification and authorization to take the test.
+</div>
+
+<h3>Hall Ticket Contains</h3>
+<ul>
+<li>Name and enrolment number of the student</li>
+<li>Photo and signature</li>
+<li>Exam schedule and subject codes</li>
+<li>Exam centre details</li>
+<li>Exam day instructions</li>
+</ul>
+
+<table>
+    <tr>
+        <th>Detail</th>
+        <th>Secondary Course</th>
+        <th>Sr. Secondary Course</th>
+    </tr>
+
+    <tr>
+        <td><strong>BOSSE Admission Fresh Class 10th & 12th</strong></td>
+
+        <td>
+            <strong>Services Included :</strong>
+            <ul>
+                <li>Admission fees</li>
+                <li>Examination Fees</li>
+                <li>Practical Subject Fees</li>
+                <li>Practical File</li>
+                <li>Assignments</li>
+                <li>Dedicated Teacher</li>
+                <li>Classes</li>
+                <li>Exam Preparation</li>
+                <li>Complete Support Till Course Completion</li>
+                <li>Admission Help For Higher Studies</li>
+            </ul>
+        </td>
+
+        <td>
+            <strong>Services Included :</strong>
+            <ul>
+                <li>Admission fees</li>
+                <li>Examination Fees</li>
+                <li>Practical Subject Fees</li>
+                <li>Practical File</li>
+                <li>Assignments</li>
+                <li>Dedicated Teacher</li>
+                <li>Classes</li>
+                <li>Exam Preparation</li>
+                <li>Complete Support Till Course Completion</li>
+                <li>Admission Help For Higher Studies</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<h3>Release Dates</h3>
+<table>
+<tr>
+<th>Session</th>
+<th>Release</th>
+<th>Exam Dates</th>
+</tr>
+<tr>
+<td>April/May 2026</td>
+<td>March 2026</td>
+<td>April – May 2026</td>
+</tr>
+<tr>
+<td>October/November 2026</td>
+<td>September 2026</td>
+<td>October – November 2026</td>
+</tr>
+</table>
+</div>
+
+<!-- ================= DOWNLOAD STEPS ================= -->
+<div class="section">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>BOSSE Academy In Aloor</h1>
+      <h2>How to Download BOSSE Hall Ticket</h2>
+<ol>
+<li>Visit the official BOSSE website</li>
+<li>Click Examination / Results</li>
+<li>Select BOSSE Hall Ticket 2026</li>
+<li>Enter enrollment number</li>
+<li>Download and print</li>
+</ol>
+<h2>BOSSE – Board of Open Schooling & Skill Education</h2>
+
+<p>The Board of Open Schooling and Skill Education (BOSSE), Sikkim, is an open schooling board that aims to cater to the varied academic needs of students up to pre-degree level including Secondary/Senior Secondary, skill and vocational education.</p>
+
+    </div>
+    <div class="col-md-6">
+<img style="width: 100%;" src="./img/boss/gov-icon.png" alt="">
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ================= BOSSE ================= -->
+<div class="section">
+
+<div class="card">
+Recognized by Govt. of Sikkim, NIOS, COBSE, Indian Army, UGC, AIU and more.
+</div>
+</div>
+
+<!-- ================= ELIGIBILITY ================= -->
+<div class="section">
+  <h1>Online 10th and 12th</h1>
+<h2>BOSSE Admission Eligibility</h2>
+
+<ul>
+<li><strong>Class 10:</strong> Minimum 14 years</li>
+<li><strong>Class 12:</strong> Passed Class 10 from recognized board</li>
+</ul>
+</div>
+
+<!-- ================= ODE ================= -->
+<div class="section">
+<h2>BOSSE On-Demand Exam (ODE) 2026</h2>
+
+<p>The BOSSE On Demand Exam 2026 is one of the most flexible examination systems in India. Students can appear whenever they are ready instead of waiting for yearly exams.</p>
+
+<ul>
+<li>Exam Window: April 2026</li>
+<li>Last Date: 10 May 2026</li>
+<li>Result: 45–60 days</li>
+</ul>
+</div>
+
+<!-- ================= WHO SHOULD CHOOSE ================= -->
+<div class="section">
+<h2>Who Should Choose BOSSE ODE 2026</h2>
+
+<ul>
+<li>Students who failed in regular board exams</li>
+<li>Students who missed exams</li>
+<li>Students who want fast results</li>
+<li>Working professionals</li>
+<li>Students needing flexible exam dates</li>
+</ul>
+</div>
+
+<!-- ================= ADVANTAGES ================= -->
+<div class="section">
+<h2>Advantages of BOSSE ODE</h2>
+
+<ul>
+<li>Flexible exam dates</li>
+<li>Fast-track results</li>
+<li>Government recognized</li>
+<li>Accepted for NEET, JEE, UPSC</li>
+<li>Valid for jobs and higher studies</li>
+</ul>
+</div>
+
+<!-- ================= FAQ ================= -->
+<div class="faq-container">
+<h2>Frequently Asked Questions - FAQ's</h2>
+
+<div class="faq-item">
+<button class="faq-question">Is BOSSE Sikkim fake or real?</button>
+<div class="faq-answer">
+BOSSE Sikkim is 100% real because it is approved by the Government of Sikkim. AIU has granted equivalency status to BOSSE and recognized BOSSE’s certificates for further studies.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">How can I check my BOSSE Sikkim result?</button>
+<div class="faq-answer">
+You can easily check BOSSE Sikkim result on the official website by entering the enrollment number, date of birth and application number.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Is BOSSE Sikkim valid?</button>
+<div class="faq-answer">
+Yes, BOSSE Sikkim is completely valid in India as well as abroad.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Which is better NIOS or BOSSE?</button>
+<div class="faq-answer">
+Here’s why BOSSE might be a good choice:
+<ul>
+<li><strong>Flexibility:</strong> On-demand exam system lets students write exams when ready.</li>
+<li><strong>Focus on Skill Development:</strong> Emphasizes vocational training alongside academics.</li>
+<li><strong>Student Support:</strong> Career counseling, study materials, and special assistance.</li>
+</ul>
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Is BOSSE valid for NEET?</button>
+<div class="faq-answer">
+Yes, BOSSE certificate is completely valid for competitive exams like NEET, JEE and UPSC.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Can I apply for multiple courses simultaneously at BOSSE Sikkim Board?</button>
+<div class="faq-answer">
+Yes, at BOSSE Sikkim, you can apply for multiple courses simultaneously, including Secondary, Senior Secondary, and vocational courses.
+</div>
+</div>
+
+<div class="faq-item">
+<button class="faq-question">Is BOSSE valid for government job?</button>
+<div class="faq-answer">
+Yes, BOSSE is completely valid for government jobs. You can enroll in exams like UPSC, SSC, IBPS etc.
+</div>
+</div>
+
+</div>
+<div class="cta">
+<h2>Enroll Now – Admission Open 2026</h2>
+<p>Free Counselling | Fast Admission | Complete Support</p>
+<button onclick="enquireNow()">Enquire Now</button>
+</div>
+
+
+
+
+
+<!-- ================= CTA ================= -->
+
+
+</div>
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div> -->
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>
+                NIOS ACADEMY / UNIVERSITY DISTANCE AND ONLINE EDUCATION CENTER - THUCKALAY
+                        <br>பல்கலைக்கழக தொலைதூர மற்றும் இணைய வழி கல்வி மையம் <br>
+
+20/69,
+Opp Bus Stand,
+Near Arumugam Stores,
+Main Road,
+Thuckalay - 629175     
+                    </p>
+                   
+                   
+                   
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>For Enquiry: +91 9994207721 </p>
+ <p class="mb-2"><i class="fa fa-envelope me-3"></i>niosacaofficial@gmail.com </p>
+  <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/niosacaofficial"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/niosacaofficial"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://youtube.com/@niosacaofficial"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/niosacaofficial"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">NIOS Academy </a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://kumaritech.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://kumaritech.com">kumaritech</a><br>
+                        
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- ================= FOOTER ================= -->
+
+
+<script>
+document.getElementById("year").innerText = new Date().getFullYear();
+
+function enquireNow(){
+  window.open("https://api.whatsapp.com/send?phone=919994207721","_blank");
+}
+</script>
+<script>
+function toggleAccordion(header){
+  const content = header.nextElementSibling;
+  const icon = header.querySelector("span");
+
+  if(content.style.maxHeight){
+    content.style.maxHeight = null;
+    content.classList.remove("open");
+    icon.innerText = "+";
+  }else{
+    content.style.maxHeight = content.scrollHeight + "px";
+    content.classList.add("open");
+    icon.innerText = "−";
+  }
+}
+</script>
+<script>
+document.querySelectorAll(".faq-question").forEach(btn=>{
+    btn.addEventListener("click", function(){
+        const answer = this.nextElementSibling;
+
+        document.querySelectorAll(".faq-answer").forEach(a=>{
+            if(a !== answer) a.style.display="none";
+        });
+
+        answer.style.display = 
+            answer.style.display === "block" ? "none" : "block";
+    });
+});
+</script>
+
+<script>
+function toggleAccordion(header){
+  const content = header.nextElementSibling;
+  const icon = header.querySelector("span");
+
+  if(content.style.maxHeight){
+    content.style.maxHeight = null;
+    content.classList.remove("open");
+    icon.innerText = "+";
+  }else{
+    content.style.maxHeight = content.scrollHeight + "px";
+    content.classList.add("open");
+    icon.innerText = "−";
+  }
+}
+</script>
+
+</body>
+</html>
